@@ -13,6 +13,16 @@
 		CA41C7A719E479E9008E1D5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA41C7A619E479E9008E1D5D /* Images.xcassets */; };
 		CA41C7AA19E479E9008E1D5D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA41C7A819E479E9008E1D5D /* LaunchScreen.xib */; };
 		CA41C7B619E479E9008E1D5D /* MinesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA41C7B519E479E9008E1D5D /* MinesTests.swift */; };
+		CA41C7C519E47D60008E1D5D /* mines1.png in Resources */ = {isa = PBXBuildFile; fileRef = CA41C7C019E47D60008E1D5D /* mines1.png */; };
+		CA41C7C619E47D60008E1D5D /* mines2.png in Resources */ = {isa = PBXBuildFile; fileRef = CA41C7C119E47D60008E1D5D /* mines2.png */; };
+		CA41C7C719E47D60008E1D5D /* mines3.png in Resources */ = {isa = PBXBuildFile; fileRef = CA41C7C219E47D60008E1D5D /* mines3.png */; };
+		CA41C7C819E47D60008E1D5D /* mines4.png in Resources */ = {isa = PBXBuildFile; fileRef = CA41C7C319E47D60008E1D5D /* mines4.png */; };
+		CA41C7C919E47D60008E1D5D /* mines5.png in Resources */ = {isa = PBXBuildFile; fileRef = CA41C7C419E47D60008E1D5D /* mines5.png */; };
+		CA41C7D019E47E71008E1D5D /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA41C7CE19E47E71008E1D5D /* TestViewController.swift */; };
+		CAA3D7B519E48BAB0086BCC9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA3D7B419E48BAB0086BCC9 /* QuartzCore.framework */; };
+		CAA3D7B719E48CCC0086BCC9 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAA3D7B619E48CCC0086BCC9 /* TestViewController.xib */; };
+		CAA3D7B919E493850086BCC9 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA3D7B819E493850086BCC9 /* Utility.swift */; };
+		CAA3D7BB19E494440086BCC9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA3D7BA19E494440086BCC9 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,16 @@
 		CA41C7AF19E479E9008E1D5D /* MinesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA41C7B419E479E9008E1D5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA41C7B519E479E9008E1D5D /* MinesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinesTests.swift; sourceTree = "<group>"; };
+		CA41C7C019E47D60008E1D5D /* mines1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mines1.png; sourceTree = "<group>"; };
+		CA41C7C119E47D60008E1D5D /* mines2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mines2.png; sourceTree = "<group>"; };
+		CA41C7C219E47D60008E1D5D /* mines3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mines3.png; sourceTree = "<group>"; };
+		CA41C7C319E47D60008E1D5D /* mines4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mines4.png; sourceTree = "<group>"; };
+		CA41C7C419E47D60008E1D5D /* mines5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mines5.png; sourceTree = "<group>"; };
+		CA41C7CE19E47E71008E1D5D /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		CAA3D7B419E48BAB0086BCC9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CAA3D7B619E48CCC0086BCC9 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		CAA3D7B819E493850086BCC9 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		CAA3D7BA19E494440086BCC9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAA3D7BB19E494440086BCC9 /* AudioToolbox.framework in Frameworks */,
+				CAA3D7B519E48BAB0086BCC9 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +81,8 @@
 		CA41C79119E479E9008E1D5D = {
 			isa = PBXGroup;
 			children = (
+				CAA3D7BA19E494440086BCC9 /* AudioToolbox.framework */,
+				CAA3D7B419E48BAB0086BCC9 /* QuartzCore.framework */,
 				CA41C79C19E479E9008E1D5D /* Mines */,
 				CA41C7B219E479E9008E1D5D /* MinesTests */,
 				CA41C79B19E479E9008E1D5D /* Products */,
@@ -77,11 +101,15 @@
 		CA41C79C19E479E9008E1D5D /* Mines */ = {
 			isa = PBXGroup;
 			children = (
+				CAA3D7B819E493850086BCC9 /* Utility.swift */,
 				CA41C79F19E479E9008E1D5D /* AppDelegate.swift */,
 				CA41C7A119E479E9008E1D5D /* ViewController.swift */,
+				CA41C7CE19E47E71008E1D5D /* TestViewController.swift */,
+				CAA3D7B619E48CCC0086BCC9 /* TestViewController.xib */,
 				CA41C7A319E479E9008E1D5D /* Main.storyboard */,
 				CA41C7A619E479E9008E1D5D /* Images.xcassets */,
 				CA41C7A819E479E9008E1D5D /* LaunchScreen.xib */,
+				CA41C7BF19E47D54008E1D5D /* Images */,
 				CA41C79D19E479E9008E1D5D /* Supporting Files */,
 			);
 			path = Mines;
@@ -110,6 +138,18 @@
 				CA41C7B419E479E9008E1D5D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA41C7BF19E47D54008E1D5D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CA41C7C019E47D60008E1D5D /* mines1.png */,
+				CA41C7C119E47D60008E1D5D /* mines2.png */,
+				CA41C7C219E47D60008E1D5D /* mines3.png */,
+				CA41C7C319E47D60008E1D5D /* mines4.png */,
+				CA41C7C419E47D60008E1D5D /* mines5.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +201,7 @@
 				TargetAttributes = {
 					CA41C79919E479E9008E1D5D = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 5P65E335XB;
 					};
 					CA41C7AE19E479E9008E1D5D = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -192,8 +233,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA41C7C619E47D60008E1D5D /* mines2.png in Resources */,
 				CA41C7A519E479E9008E1D5D /* Main.storyboard in Resources */,
+				CA41C7C719E47D60008E1D5D /* mines3.png in Resources */,
 				CA41C7AA19E479E9008E1D5D /* LaunchScreen.xib in Resources */,
+				CAA3D7B719E48CCC0086BCC9 /* TestViewController.xib in Resources */,
+				CA41C7C519E47D60008E1D5D /* mines1.png in Resources */,
+				CA41C7C819E47D60008E1D5D /* mines4.png in Resources */,
+				CA41C7C919E47D60008E1D5D /* mines5.png in Resources */,
 				CA41C7A719E479E9008E1D5D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAA3D7B919E493850086BCC9 /* Utility.swift in Sources */,
 				CA41C7A219E479E9008E1D5D /* ViewController.swift in Sources */,
+				CA41C7D019E47E71008E1D5D /* TestViewController.swift in Sources */,
 				CA41C7A019E479E9008E1D5D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -326,7 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -338,7 +387,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Mines/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -348,7 +399,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Mines/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -407,6 +460,7 @@
 				CA41C7BB19E479E9008E1D5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA41C7BC19E479E9008E1D5D /* Build configuration list for PBXNativeTarget "MinesTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +469,7 @@
 				CA41C7BE19E479E9008E1D5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
